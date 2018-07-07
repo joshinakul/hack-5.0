@@ -51,14 +51,3 @@ def maximizeContrast(imgGrayscale):
     imgGrayscalePlusTopHatMinusBlackHat = cv2.subtract(imgGrayscalePlusTopHat, imgBlackHat)
 
     return imgGrayscalePlusTopHatMinusBlackHat
-
-
-
-
-
-
-
-
-
-
-
